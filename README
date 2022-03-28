@@ -1,0 +1,12 @@
+# Quick `atanhf` Benchmarks
+
+```
+# Build
+$> (cd build; cmake ..; make)
+
+# Run
+$> (cd build; ./driver)
+
+function0, function1, {tput|lat}, nthreads, ntrials, new_time / old_time
+...
+```
